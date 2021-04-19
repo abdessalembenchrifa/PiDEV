@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Jobcore.jnlp">
+  <information>
+    <title>Jobcore</title>
+    <vendor>abdes</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Jobcore.jar" size="21290" download="eager" />
+    <jar href="lib\artoolkitplus-2.3.1-1.5.5.jar" size="25276" download="eager" />
+    <jar href="lib\ffmpeg-4.3.2-1.5.5.jar" size="319315" download="eager" />
+    <jar href="lib\flandmark-1.07-1.5.5.jar" size="13101" download="eager" />
+    <jar href="lib\flycapture-2.13.3.31-1.5.5.jar" size="137184" download="eager" />
+    <jar href="lib\javacpp-1.5.5.jar" size="480309" download="eager" />
+    <jar href="lib\javacv-1.5.5.jar" size="429675" download="eager" />
+    <jar href="lib\leptonica-1.80.0-1.5.5.jar" size="164875" download="eager" />
+    <jar href="lib\libdc1394-2.2.6-1.5.5.jar" size="32282" download="eager" />
+    <jar href="lib\libfreenect-0.5.7-1.5.5.jar" size="20925" download="eager" />
+    <jar href="lib\libfreenect2-0.2.0-1.5.5.jar" size="25004" download="eager" />
+    <jar href="lib\librealsense-1.12.4-1.5.5.jar" size="50444" download="eager" />
+    <jar href="lib\librealsense2-2.40.0-1.5.5.jar" size="69706" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.22.jar" size="2389216" download="eager" />
+    <jar href="lib\openblas-0.3.13-1.5.5.jar" size="170560" download="eager" />
+    <jar href="lib\opencv-4.5.1-1.5.5.jar" size="1659150" download="eager" />
+    <jar href="lib\tesseract-4.1.1-1.5.5.jar" size="74794" download="eager" />
+    <jar href="lib\videoinput-0.200-1.5.5.jar" size="18408" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Jobcore" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="jobcore.Jobcore"  name="Jobcore" />
+  <update check="always"/>
+</jnlp>
